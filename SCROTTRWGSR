@@ -7,7 +7,7 @@ local gui =
 
 local tab =
     gui:tab {
-    Icon = "rbxassetid://12812151498",
+    Icon = "rbxassetid://12812151446",
     Name = "Main"
 }
 
