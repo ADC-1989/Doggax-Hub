@@ -37,10 +37,10 @@ tab:button(
             for i, v in ipairs(foldera:GetChildren()) do
                 for k, l in ipairs(v:GetChildren()) do
                     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = l.CFrame
-                    wait(0.1)
+                    wait(0.01)
                     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = position
                 end
-                wait(0.1)
+                wait(0.01)
             end
         end
     }
